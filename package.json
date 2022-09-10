@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "gulp"
   },
-  "author": "antperdev",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "bootstrap": "^5.1.1",

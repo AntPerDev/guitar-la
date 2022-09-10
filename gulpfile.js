@@ -21,7 +21,15 @@ function cssbuild( done ) {
             suffix: '.min'
         }))
         .pipe( purgecss({
-            content: ['index.html']
+            content: [
+                'base.html',
+                'blog.html',
+                'entrada.html',
+                'index.html',
+                'nosotros.html',
+                'producto.html',
+                'tienda.html',
+            ]
         }))
         .pipe( dest('build/css'))
 
